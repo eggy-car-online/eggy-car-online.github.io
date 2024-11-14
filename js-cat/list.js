@@ -170,7 +170,7 @@ fetch(`/data-json/search.json?v=${t}`)
   .then((res) => res.json())
   .then((data) => (listGame = data));
 function loadGA() {
-  if (window.location.host == "eggy-car-online.github.io") {
+  if (window.location.host == "eggy-car.github.io") {
     var r = document.createElement("script");
     r.setAttribute(
       "src",

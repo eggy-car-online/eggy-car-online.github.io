@@ -20,7 +20,7 @@ function playGame() {
   ).innerHTML = `<iframe id="game-element" allowfullscreen="" allow="autoplay; fullscreen; camera; focus-without-user-activation *; monetization; gamepad; keyboard-map *; xr-spatial-tracking; clipboard-write" name="gameFrame" scrolling="no" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-scripts allow-same-origin allow-downloads" src="${tmp}"></iframe>`;
 }
 function loadGA() {
-  if (window.location.host == "eggy-car-online.github.io") {
+  if (window.location.host == "eggy-car.github.io") {
     var r = document.createElement("script");
     r.setAttribute(
       "src",
