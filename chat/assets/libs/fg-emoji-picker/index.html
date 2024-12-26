@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    
-    <style>
-        html, body {
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Document
+  </title>
+  <style>
+   html, body {
             width: 100%; height: 100%;
             padding: 0; margin: 0;
             font-family: sans-serif;
@@ -31,22 +32,21 @@
             border: 2px solid rgb(199, 218, 253);
             font-size: 20px;
         }
-
-       
-    </style>
-</head>
-<body>
-    <div class="container">
-        <textarea></textarea>
-       
-       
-        <button>Pick emoji</button>
-    </div>
-    
-    
-    <script src="fgEmojiPicker.js"></script>
-    <script>
-        const emojiPicker = new FgEmojiPicker({
+  </style>
+  <link href="https://eggy-car-online.github.io/chat/assets/libs/fg-emoji-picker/" rel="canonical"/>
+  <meta content="Document - Play Free and Unblocked Online Games Today!" name="description"/>
+ </head>
+ <body>
+  <div class="container">
+   <textarea></textarea>
+   <button>
+    Pick emoji
+   </button>
+  </div>
+  <script src="fgEmojiPicker.js">
+  </script>
+  <script>
+   const emojiPicker = new FgEmojiPicker({
             trigger: ['button'],
             removeOnSelection: false,
             closeButton: true,
@@ -57,6 +57,6 @@
                 console.log(obj, triggerElement);
             }
         });
-    </script>
-</body>
+  </script>
+ </body>
 </html>
